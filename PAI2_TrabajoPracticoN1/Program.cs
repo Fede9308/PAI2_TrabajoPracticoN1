@@ -14,9 +14,9 @@
 
         Console.WriteLine("N°1 Clase Animal");
         Animal perro = new Animal();
-        perro.Especie = "Canis Familiaris";
-        perro.CantidadDePatas = 4;
-        perro.Peso = 8;
+        perro.AsignarEspecie("Canis Familiaris");
+        perro.AsignarCantidadDePatas(5);
+        perro.AsignarPeso(8);
         Console.WriteLine(perro.Especie);
         Console.WriteLine(perro.CantidadDePatas);
         Console.WriteLine(perro.Peso);
